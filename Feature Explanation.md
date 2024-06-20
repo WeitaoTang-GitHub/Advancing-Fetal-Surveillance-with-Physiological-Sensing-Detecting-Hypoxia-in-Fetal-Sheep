@@ -21,8 +21,8 @@ Here are the features listed by their respective types (EEG, EMG, ECG) along wit
 ### EMG (Electromyography) Features
 
 **Frequency Domain Features:**
-1. **Absolute Power of Low Frequencies (0.25-60 Hz):** Measures the total power within the low-frequency range of the EMG signal.
-2. **Relative Power of Low Frequencies (0.25-60 Hz):** The ratio of low-frequency power to the total power across all frequency bands.
+  1. **Absolute Power of Low Frequencies (20-60 Hz):** Measures the total power within the low-frequency range of the EMG signal.
+2. **Relative Power of Low Frequencies (20-60 Hz):** The ratio of low-frequency power to the total power across all frequency bands.
 3. **Absolute Power of Medium Frequencies (60-250 Hz):** Measures the total power within the medium-frequency range of the EMG signal.
 4. **Relative Power of Medium Frequencies (60-250 Hz):** The ratio of medium-frequency power to the total power across all frequency bands.
 5. **Absolute Power of High Frequencies (250-500 Hz):** Measures the total power within the high-frequency range of the EMG signal.
