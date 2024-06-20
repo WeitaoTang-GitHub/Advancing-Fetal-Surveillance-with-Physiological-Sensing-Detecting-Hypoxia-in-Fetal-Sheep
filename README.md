@@ -11,6 +11,8 @@ The MATLAB files are provided in a RAR archive. You can extract and use these fi
 - **change_15min_to_same_time.ipynb**: Initially, we set Baseline and Post-UCO to 15 minutes. To maintain class balance, we later adjusted Baseline and Post-UCO for each sheep to match the UCO duration.
 - **Experiment.ipynb**: This notebook includes all the experimental details.
 - **Paper display.ipynb**: This notebook ensures that all figures are displayed with optimal visual quality for the paper.
+- **UCO_Sample_Data.csv**: Record each Sheep sample, UCO start time, UCO end time, UCO duration, average UCO duration.
+- **UCO_time.txt**: Record each Sheep sample, the recording start time, UCO start time, end time.
 
 ### Specific files
 Each MATLAB file contains approximately 12 hours of data. If the UCO surgery occurs earlier, it will be necessary to obtain the data from the previous 12 hours. Conversely, if the UCO surgery occurs later, data from the subsequent 12 hours will be required.
