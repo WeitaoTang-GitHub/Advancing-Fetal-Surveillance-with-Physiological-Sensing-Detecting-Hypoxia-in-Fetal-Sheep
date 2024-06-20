@@ -1,0 +1,57 @@
+sovled:
+20105: 20105_8-06-2020 10_45_36.7 PM; Recording start time(8/6): 22:45:36:7PM; UCO start time(9/6): 8:44:31.545254AM; UCO end time(9/6): 8:54:53.395754AM
+
+sovled:
+21071: 21071_21-06-2021 11_14_59.7 PM_ UCO file at 936AM; Recording start time(21/6): 23:14:59:7PM; UCO start time(22/6): 9:36:20.57771AM; UCO end time(22/6): 9:46:40.42721AM
+
+sovled:
+21087: 21087_8-07-2021 11;00;28.8 PM UCO at 953AM; Recording start time(8/7): 23:00:28:8PM; UCO start time(9/7): 9:53:52.515596AM; UCO end time(9/7): 10:06:13.465595AM
+
+solved:
+21093: 21093_16-07-2021 9_48_22.1 AM_ UCO at 954AM; Recording start time(16/7): 9:48:22:1AM; UCO start time(16/7): 9:54:32.442703AM; UCO end time(16/7): 10:06:45.492703AM
+for 21093 very trouble, need to get the 21093_15-07-2021 9_56_03.4 PM and 21093_16-07-2021 9_48_22.1 AM_ UCO at 954 two files, need to get about 9 min from the last 21093_15-07-2021 9_56_03.4 PM
+
+solved:
+20112A*(use this): 20112_30-06-2020; UCO - UCO+4h; Recording start time(30/6): 9:48:12:008AM; UCO start time(30/6): 9:48:12.855028AM; UCO end time(30/6): 9:58:19.355028AM
+for 20112A very trouble, there is only 1 min left before UCO start time, so we need to use the 20112_29-06-2020; UCO-12h - UCO file for last 15 minutes
+
+solved:
+21122: 21122_13-08-2021 1_29_07.4 AM_ UCO at 813AM; Recording start time(13/8): 1:29:07:4AM; UCO start time(13/8): 8:13:39.397183AM; UCO end time(13/8): 8:25:21.047183AM                                                                                                                                                                                                                                                           
+
+solved:
+21133: 21133_20-08-2021 1_43_42.2 AM_ UCO at 846AM; Recording start time(20/8): 1:43:42:2AM; UCO start time(20/8): 8:46:50.108576AM; UCO end time(20/8): 8:58:22.308076AM
+
+solved:
+21165: 21165_30-09-2021 9_07_27.0 PM_ UCO file at 856; Recording start time(30/9): 9:07:27:00PM; UCO start time(1/10): 8:56:11.93617AM; UCO end time(1/10): 9:06:18.23617AM
+for 21165 very trouble, we also need to take the first 15 min from 21165_1-10-2021 9_07_32.5 AM 
+
+solved:
+21173: 21173_14-10-2021 10_21_55.6 PM_ UCO at 936AM; Recording start time(14/10): 10:21:55:6PM; UCO start time(15/10): 9:39:47.712436AM; UCO end time(15/10): 9:50:21.312436AM
+
+solved:
+21203: 21203_21-10-2021 11_52_10.8 PM_ UCO at 913AM; Recording start time(21/10): 11:52:10:8PM; UCO start time(22/10): 9:13:55.707725AM; UCO end time(22/10): 9:24:05.357725AM
+
+sovled:
+20244*(use this): 20244_27-10-2020 10_11_55.7 AM; UCO and UCO+8h; Recording start time(27/10): 10:11:55:7AM; UCO start time(27/10): 12:38:42.696468PM; UCO end time(27/10): 12:51:07.646468PM
+
+sovled:
+20252*(use this): 20252_10-11-2020 3_01_40.7 AM; UCO-6 h and UCO and UCO+6h; Recording start time(10/11): 3:01:40:7AM; UCO start time(10/11): 9:23:06.724592AM; UCO end time(10/11): 9:34:56.624592AM
+
+solved:
+21044: 21044_1-06-2021 9_25_16.2 AM_ UCO file; Recording start time(1/6): 9:25:16:2AM; UCO start time(1/6): 9:54:34.055758AM; UCO end time(1/6): 10:09:31.555758AM
+Use Channel two
+Channel one recording start time: 23:53:09 PM
+
+solved:
+Three channels:
+21051: 21051_1-06-2021 9_28_34.3 AM_ UCO file; Recording start time(1/6): 9:28:34:3AM; UCO start time(1/6): 9:35:48.155181AM; UCO end time(1/6): 9:47:53.155181AM
+for 21051 very trouble, we also need to take the last 8 min from 21051_1-06-2021 9_16_28.4 AM Any problem here? because this file does not has 12 hours
+Channel 3 has UCO, Channel 1 as compare group
+
+solved:
+21126: 21126_19-08-2021 8_06_45.8 AM; Recording start time(19/8): 08:06:45:8AM; UCO start time(19/8): 8:46:39.591762AM; UCO end time(19/8): 8:57:51.591762AM
+
+solved:
+21200: 21200_11-11-2021 10_26_35.3 PM; Recording start time(11/11): 10:26:35:3PM; UCO start time(12/11): 9:41:26.472337AM; UCO end time(12/11): 9:50:40.622337AM	                                                                                                                                                                                                                                                              
+
+Timeline is very hard to see, check 21044
