@@ -61,13 +61,12 @@ Weitao Tang. 《Weitao-chat/advancing-fetal-surveillance-with-physiological-sens
 ```bibtex
 @software{weitao_chat_2024_12524664,
   author       = {Weitao Tang},
-  title        = {{Weitao-chat/Advancing-Fetal-Surveillance-with- 
-                   Physiological-Sensing-Detecting-Hypoxia-in-Fetal-
-                   Sheep: v1.0.0}},
+  title        = {Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0},
   month        = jun,
   year         = 2024,
   publisher    = {Zenodo},
   version      = {V1.0.0},
   doi          = {10.5281/zenodo.12524664},
-  url          = {https://doi.org/10.5281/zenodo.12524664}
+  url          = {https://doi.org/10.5281/zenodo.12524664},
+  note         = {\url{https://doi.org/10.5281/zenodo.12524664}}
 }
