@@ -27,3 +27,26 @@ Each MATLAB file contains approximately 12 hours of data. If the UCO surgery occ
 
 For more detailed information, please refer to each script and notebook.
 
+## Citation
+
+If you use this code in your research, please cite it as follows:
+
+### APA Reference
+
+Weitao-chat. (2024). Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0 (V1.0.0). Zenodo. https://doi.org/10.5281/zenodo.12524664
+
+### BibTeX
+
+```bibtex
+@software{weitao_chat_2024_12524664,
+  author       = {Weitao-chat},
+  title        = {{Weitao-chat/Advancing-Fetal-Surveillance-with- 
+                   Physiological-Sensing-Detecting-Hypoxia-in-Fetal-
+                   Sheep: v1.0.0}},
+  month        = jun,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {V1.0.0},
+  doi          = {10.5281/zenodo.12524664},
+  url          = {https://doi.org/10.5281/zenodo.12524664}
+}
