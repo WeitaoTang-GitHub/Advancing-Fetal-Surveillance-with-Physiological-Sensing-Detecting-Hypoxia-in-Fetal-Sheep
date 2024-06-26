@@ -73,7 +73,7 @@ Weitao Tang. Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing
 
 ### Vancouver Reference
 
-1. Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0. Zenodo; 2024. 
+Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0. Zenodo; 2024. 
 
 ### Chicago Reference
 
@@ -81,7 +81,7 @@ Weitao Tang. 《Weitao-chat/advancing-fetal-surveillance-with-physiological-sens
 
 ### IEEE Reference
 
-[1]Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0》. Zenodo, 6月 25, 2024. doi: 10.5281/zenodo.12524664.
+Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0》. Zenodo, 6月 25, 2024. doi: 10.5281/zenodo.12524664.
 
 
 ### BibTeX
