@@ -22,7 +22,7 @@ Each MATLAB file contains approximately 12 hours of data. If the UCO surgery occ
 
 ## Usage
 
-To ensure the code runs smoothly, we have included some fake data for testing purposes. If you need the real data, please contact: Robert.Galinsky@hudson.org.au.
+To ensure the code runs smoothly, we have included some fake data for testing purposes.
 
 1. **Download and Extract the GitHub Repository**:
    - Download the entire repository as a ZIP file.
