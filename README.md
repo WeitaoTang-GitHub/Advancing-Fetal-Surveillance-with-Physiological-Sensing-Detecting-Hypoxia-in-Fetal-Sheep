@@ -22,10 +22,38 @@ Each MATLAB file contains approximately 12 hours of data. If the UCO surgery occ
 
 ## Usage
 
-1. Extract the provided RAR archive.
-2. Follow the instructions in the notebooks and scripts to preprocess the data and prepare it for training.
+To ensure the code runs smoothly, we have included some fake data for testing purposes. If you need the real data, please contact: Robert.Galinsky@hudson.org.au.
+
+1. **Download and Extract the GitHub Repository**:
+   - Download the entire repository as a ZIP file.
+   - If the names are too long and the extraction fails, shorten the names and try again.
+
+2. **MATLAB Setup**:
+   - Open MATLAB and select "Browse for folder" to open the "Matlab code for preprocessing" folder within the project.
+   - Add all `.m` files and the "Fake data" folder to the MATLAB path.
+
+3. **MATLAB Toolbox Installation**:
+   - Install the following toolbox via MATLAB's "Get More Apps":
+     - ADInstruments (LabChart) SDK
+   - This toolbox is necessary for reading the original `.aicht` data files.
+
+4. **Running MATLAB Scripts**:
+   - Open the provided `21203` folder which includes sample files with noise data.
+   - Run `Clean_Process.m` to preprocess EEG signals and generate EEG MATLAB data.
+   - Run `Clean_Process_ECG.m` to preprocess ECG signals and generate ECG MATLAB data.
+   - Run `Clean_Process_EMG.m` to preprocess EMG signals and generate EMG MATLAB data.
+
+5. **Feature Extraction and Labeling**:
+   - The processed MATLAB data will be stored in the "Fake data" folder.
+   - Use `all_eeg_features_in_one_15_min.ipynb`, `all_ecg_features_in_one_15_min.ipynb`, and `all_emg_features_in_one_15_min.ipynb` to extract features and labels from the EEG, ECG, and EMG MATLAB data respectively and save them to XLSX files.
+
+6. **Data Merging and Experimentation**:
+   - Since we use Leave-One-Out Cross Validation, we created the "IEEE Sensor Xlsx Data" folder, which contains EEG, ECG, and EMG data for each sheep, including some fake data for testing.
+   - Run `Merge_all_data` to merge all EEG, ECG, and EMG XLSX data based on the `time` attribute, and save the merged data to the "Merge_data" folder. This will provide data for 16 sheep.
+   - Finally, run `Experiment.ipynb` to conduct the experiments. Remember to modify folder names as needed since "_fake" has been added to the data folder names.
 
 For more detailed information, please refer to each script and notebook.
+
 
 ## Citation
 
@@ -45,7 +73,7 @@ Weitao Tang. Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing
 
 ### Vancouver Reference
 
-1. Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0. Zenodo; 2024. 
+Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0. Zenodo; 2024. 
 
 ### Chicago Reference
 
@@ -53,7 +81,7 @@ Weitao Tang. 《Weitao-chat/advancing-fetal-surveillance-with-physiological-sens
 
 ### IEEE Reference
 
-[1]Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0》. Zenodo, 6月 25, 2024. doi: 10.5281/zenodo.12524664.
+Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0》. Zenodo, 6月 25, 2024. doi: 10.5281/zenodo.12524664.
 
 
 ### BibTeX
