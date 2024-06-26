@@ -1,4 +1,4 @@
-%Written by Charles Byron, 20/02/2023
+%Written by Weitao Tang, 25/06/2024
 close all
 clc
 
@@ -7,11 +7,10 @@ clc
 
 %% fds = fileDatastore('*.adicht', 'ReadFcn', @importdata); 
 %%
-fds = fileDatastore('D:\Raw EEG\20252\*.adicht', 'ReadFcn', @importdata);
+fds = fileDatastore('Fake data\21203\*.adicht', 'ReadFcn', @importdata);
 fullFileNames = fds.Files;
 numFiles = length(fullFileNames);
 
-%% NOT SURE WHAT THIS DOES 
 %%
 %loading quality excel from Quality Check.m
 % changed from big table or the excel to a logical 1 or 0

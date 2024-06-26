@@ -7,7 +7,7 @@ clc
 
 %% fds = fileDatastore('*.adicht', 'ReadFcn', @importdata); 
 %%
-fds = fileDatastore('D:\Raw EEG\21044\*.adicht', 'ReadFcn', @importdata);
+fds = fileDatastore('Fake data\21203\*.adicht', 'ReadFcn', @importdata);
 fullFileNames = fds.Files;
 numFiles = length(fullFileNames);
 
@@ -70,11 +70,11 @@ for k = currentfile:numFiles
                 Wn_highpass = f_low / (fs/2); % Normalized cutoff frequency for highpass filter
                 [b_highpass, a_highpass] = butter(N_highpass, Wn_highpass, 'high');
 
-                % Apply the lowpass filter to the EEG signal
-                filtered_eeg_signal_lowpass = filtfilt(b_lowpass, a_lowpass, raw_ECG_data);
+                % Apply the lowpass filter to the ECG signal
+                filtered_ecg_signal_lowpass = filtfilt(b_lowpass, a_lowpass, raw_ECG_data);
 
-                % Apply the highpass filter to the lowpass-filtered EEG signal
-                filtered_eeg_signal = filtfilt(b_highpass, a_highpass, filtered_eeg_signal_lowpass);
+                % Apply the highpass filter to the lowpass-filtered ECG signal
+                filtered_ecg_signal = filtfilt(b_highpass, a_highpass, filtered_ecg_signal_lowpass);
 
                 % Plot the original and filtered ECG signals for comparison
                 t = (0:length(raw_ECG_data)-1) / fs; % Time vector
@@ -85,16 +85,16 @@ for k = currentfile:numFiles
                 ylabel('ECG Signal');
                 title('Original ECG Signal');
                 subplot(2,1,2);
-                plot(t, filtered_eeg_signal, 'k');
+                plot(t, filtered_ecg_signal, 'k');
                 xlabel('Time (s)');
                 ylabel('Filtered ECG Signal');
                 title('Filtered ECG Signal');
             
 
                 % Plotting Frequency Domain
-%                 N= length(filtered_eeg_signal);
+%                 N= length(filtered_ecg_signal);
 %                 Fs = 256; %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                 C1 = fft(filtered_eeg_signal);
+%                 C1 = fft(filtered_ecg_signal);
 %                 Comega = (-floor(N/2):(N-1-floor(N/2)))*(Fs/N);
 %                 plot(Comega, fftshift(abs(C1)),'k','LineWidth',0.8);
 %                 hold on
@@ -107,7 +107,7 @@ for k = currentfile:numFiles
 
 
 %                 saving data for later use
-                save_data = filtered_eeg_signal;
+                save_data = filtered_ecg_signal;
                 savefile = append(erase(filename, "Main Data"), " Channel "+i,".mat");
                 save(savefile, 'save_data')
             else

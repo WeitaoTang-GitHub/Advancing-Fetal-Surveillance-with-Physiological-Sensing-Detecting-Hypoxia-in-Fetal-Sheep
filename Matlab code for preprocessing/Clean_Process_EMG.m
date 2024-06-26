@@ -7,7 +7,7 @@ clc
 
 %% fds = fileDatastore('*.adicht', 'ReadFcn', @importdata); 
 %%
-fds = fileDatastore('D:\Raw EEG\20252\*.adicht', 'ReadFcn', @importdata);
+fds = fileDatastore('Fake data\21203\*.adicht', 'ReadFcn', @importdata);
 fullFileNames = fds.Files;
 numFiles = length(fullFileNames);
 
