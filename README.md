@@ -64,40 +64,40 @@ If you use this code in your research, please cite it as follows:
 
 ### APA Reference
 
-Weitao Tang. (2024). Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0 (V1.0.0). Zenodo. https://doi.org/10.5281/zenodo.12524664
+Weitao Tang. (2024). Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1 (V1.0.1). Zenodo. https://doi.org/10.5281/zenodo.12540027
 
 ### Havard Reference
 
-Weitao Tang (2024) 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0》. Zenodo. doi: 10.5281/zenodo.12524664.
+Weitao Tang (2024) 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1》. Zenodo. doi: 10.5281/zenodo.12540027.
 
 ### MLA Reference
 
-Weitao Tang. Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing-detecting-hypoxia-in-fetal-sheep: V1.0.0. V1.0.0, Zenodo, 2024年6月25日, doi:10.5281/zenodo.12524664.
+Weitao Tang. Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing-detecting-hypoxia-in-fetal-sheep: V1.0.1. V1.0.1, Zenodo, 2024年6月26日, doi:10.5281/zenodo.12540027.
 
 ### Vancouver Reference
 
-Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0. Zenodo; 2024. 
+Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1. Zenodo; 2024. 
 
 ### Chicago Reference
 
-Weitao Tang. 《Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing-detecting-hypoxia-in-fetal-sheep: V1.0.0》. Zenodo, 2024年6月25日. https://doi.org/10.5281/zenodo.12524664.
+Weitao Tang. 《Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing-detecting-hypoxia-in-fetal-sheep: V1.0.1》. Zenodo, 2024年6月26日. https://doi.org/10.5281/zenodo.12540027.
 
 ### IEEE Reference
 
-Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0》. Zenodo, 6月 25, 2024. doi: 10.5281/zenodo.12524664.
+Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1》. Zenodo, 6月 26, 2024. doi: 10.5281/zenodo.12540027.
 
 
 ### BibTeX
 
 ```bibtex
-@software{weitao_chat_2024_12524664,
+@software{weitao_chat_2024_12540027,
   author       = {Weitao Tang},
-  title        = {Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.0},
+  title        = {Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.1},
   month        = jun,
   year         = 2024,
   publisher    = {Zenodo},
-  version      = {V1.0.0},
-  doi          = {10.5281/zenodo.12524664},
-  url          = {https://doi.org/10.5281/zenodo.12524664},
-  note         = {\url{https://doi.org/10.5281/zenodo.12524664}}
+  version      = {V1.0.1},
+  doi          = {10.5281/zenodo.12540027},
+  url          = {https://doi.org/10.5281/zenodo.12540027},
+  note         = {\url{https://doi.org/10.5281/zenodo.12540027}}
 }
