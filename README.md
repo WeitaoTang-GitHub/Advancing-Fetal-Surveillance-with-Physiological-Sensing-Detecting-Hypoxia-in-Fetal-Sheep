@@ -1,6 +1,6 @@
 # Data Processing and Preprocessing
 
-The MATLAB files are provided in a RAR archive. You can extract and use these files as needed. The files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then use Python scripts to extract information from the MATLAB files into XLSX spreadsheet files for XGBoost training.
+The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then use Python scripts to extract information from the MATLAB files into XLSX spreadsheet files for XGBoost training.
 
 ## Scripts and Notebooks
 
