@@ -52,7 +52,7 @@ To ensure the code runs smoothly, we have included some fake data for testing pu
 
 7. **Data Merging and Experimentation**:
    - Since we use Leave-One-Out Cross Validation, we created the "IEEE Sensor Xlsx Data" folder, which contains EEG, ECG, and EMG data for each sheep, including some fake data for testing.
-   - Run `Merge_all_data` to merge all EEG, ECG, and EMG XLSX data based on the `time` attribute, and save the merged data to the "Merge_data" folder. This will provide data for 16 sheep.
+   - Run `Merge_all_data.ipynb` to merge all EEG, ECG, and EMG XLSX data based on the `time` attribute, and save the merged data to the "Merge_data" folder. This will provide data for 16 sheep.
    - Finally, run `Experiment.ipynb` to conduct the experiments. Remember to modify folder names as needed since "_fake" has been added to the data folder names.
 
 For more detailed information, please refer to each script and notebook.
