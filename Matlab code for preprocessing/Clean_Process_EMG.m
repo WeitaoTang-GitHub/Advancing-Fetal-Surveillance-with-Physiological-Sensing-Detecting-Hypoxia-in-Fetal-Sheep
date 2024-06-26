@@ -13,7 +13,7 @@ numFiles = length(fullFileNames);
 
 
 %quality = load("Quality_logical.mat").ans;
-ExcelSheet = readmatrix('D:\Raw EEG\New Data EMG Quality.xlsx');
+ExcelSheet = readmatrix('New Data EMG Quality.xlsx');
 
 quality = ExcelSheet(:,4);
 

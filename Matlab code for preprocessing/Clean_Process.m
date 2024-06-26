@@ -17,7 +17,7 @@ numFiles = length(fullFileNames);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %quality = load("Quality_logical.mat").ans;
-ExcelSheet = readmatrix('D:\Raw EEG\Data Quality.xlsx');
+ExcelSheet = readmatrix('Data Quality.xlsx');
 
 quality = ExcelSheet(:,4);
 
