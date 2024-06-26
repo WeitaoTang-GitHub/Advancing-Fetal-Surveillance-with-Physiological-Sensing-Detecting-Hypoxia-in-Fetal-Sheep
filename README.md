@@ -96,8 +96,8 @@ Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sens
   month        = jun,
   year         = 2024,
   publisher    = {Zenodo},
-  version      = {V1.0.1},
+  version      = {v1.0.1},
   doi          = {10.5281/zenodo.12540027},
   url          = {https://doi.org/10.5281/zenodo.12540027},
-  note         = {\url{https://github.com/Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep}}
+  note         = {\url{https://doi.org/10.5281/zenodo.12540027}}
 }
