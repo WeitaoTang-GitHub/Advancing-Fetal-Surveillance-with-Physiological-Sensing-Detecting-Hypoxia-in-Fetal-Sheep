@@ -108,7 +108,7 @@ for k = currentfile:numFiles
 
 %                 saving data for later use
                 save_data = filtered_ecg_signal;
-                savefile = append(erase(filename, "Main Data"), " Channel "+i,".mat");
+                savefile = append(erase(filename, "Main Data"), " Channel "+i+"_ECG",".mat");
                 save(savefile, 'save_data')
             else
                 %for if file is a 0 in quality array

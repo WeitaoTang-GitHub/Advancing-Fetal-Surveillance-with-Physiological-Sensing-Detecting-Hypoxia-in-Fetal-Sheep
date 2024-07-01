@@ -93,7 +93,7 @@ for k = currentfile:numFiles
             
                 %saving data for later use
                 save_data = filtered_emg_signal;
-                savefile = append(erase(filename, "Main Data"), " Channel "+i,".mat");
+                savefile = append(erase(filename, "Main Data"), " Channel "+i+"_EMG",".mat");
                 save(savefile, 'save_data')
             else
                 %for if file is a 0 in quality array
