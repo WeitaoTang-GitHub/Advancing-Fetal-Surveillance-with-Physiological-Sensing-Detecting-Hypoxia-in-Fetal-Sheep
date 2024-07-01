@@ -1,2 +1,4 @@
 .ipynb_checkpoints
 *.mat
+result/
+*.asv
