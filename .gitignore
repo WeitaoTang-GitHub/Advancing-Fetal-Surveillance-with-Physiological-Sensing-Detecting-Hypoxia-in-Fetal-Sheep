@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+*.mat
+result/
+*.asv
+IEEE Sensor Xlsx Data/Merge_data

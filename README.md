@@ -4,7 +4,7 @@ The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using meth
 
 ## Scripts and Notebooks
 
-- **all_eeg_features_in_one_15_min.ipynb**: Extract the EEG features from Matlab files and label Baseline(60 number of 15 seconds segments 1 hour before UCO start time) as -1, UCO duration as 0, Post-UCO(60 number of 15 seconds segments after UCO end time) as 1.  
+- **all_eeg_features_in_one_15_min.ipynb**: Extract the EEG features from Matlab files and label Baseline(60 number of 15 seconds segments 1 hour before UCO start time) as -1, UCO duration as 0, Post-UCO(60 number of 15 seconds segments after UCO end time) as 1.
 - **all_ecg_features_in_one_15_min.ipynb**: Extract the ECG features from Matlab files.
 - **all_emg_features_in_one_15_min.ipynb**: Extract the EMG features from Matlab files.
 - **Merge_all_data**: This script merges EEG, ECG, and EMG features and related data for each sheep.
@@ -49,7 +49,8 @@ To ensure the code runs smoothly, we have included some fake data for testing pu
 
 7. **Feature Extraction and Labeling**:
    - The processed MATLAB data will be stored in the "Fake data" folder.
-   - Use `all_eeg_features_in_one_15_min.ipynb`, `all_ecg_features_in_one_15_min.ipynb`, and `all_emg_features_in_one_15_min.ipynb` to extract features and labels from the EEG, ECG, and EMG MATLAB data respectively and save them to XLSX files.
+   - Use `all_eeg_features_in_one_15_min.ipynb`, `all_ecg_features_in_one_15_min.ipynb`, and `all_emg_features_in_one_15_min.ipynb` to extract features and labels from the EEG, ECG, and EMG MATLAB data respectively and save them to XLSX files. Note that the last block for all three files requires real data to work.
+
 
 8. **Data Merging and Experimentation**:
    - Since we use Leave-One-Out Cross Validation, we created the "IEEE Sensor Xlsx Data" folder, which contains EEG, ECG, and EMG data for each sheep, including some fake data for testing.
@@ -77,7 +78,7 @@ Weitao Tang. Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing
 
 ### Vancouver Reference
 
-Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1. Zenodo; 2024. 
+Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1. Zenodo; 2024.
 
 ### Chicago Reference
 
