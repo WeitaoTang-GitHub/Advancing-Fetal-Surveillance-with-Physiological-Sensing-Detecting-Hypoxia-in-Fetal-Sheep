@@ -1,6 +1,6 @@
 # Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep
 
-The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then use Python scripts to extract information from the MATLAB files into XLSX spreadsheet files for XGBoost training.
+The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering (MATLAB code only runs in Windows system). They convert adchit files into MATLAB files, and then use Python scripts to extract information from the MATLAB files into XLSX spreadsheet files for XGBoost training.
 
 ## Scripts and Notebooks
 
@@ -34,7 +34,7 @@ To ensure the code runs smoothly, we have included some fake data for testing pu
 
 3. **MATLAB Toolbox Installation**:
    - Install the following toolbox via MATLAB's "Get More Apps":
-     - ADInstruments (LabChart) SDK
+     - ADInstruments (LabChart) SDK (Only support Windows system)
    - This toolbox is necessary for reading the original `.aicht` data files.
 
 4. **Install Python Packages**:
