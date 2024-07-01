@@ -38,20 +38,22 @@ To ensure the code runs smoothly, we have included some fake data for testing pu
    - This toolbox is necessary for reading the original `.aicht` data files.
 
 4. **Install Python Packages**:
+   - Python version: 3.11.7
    - Install all the required python packages by requirement.txt.
 
-5. **Running MATLAB Scripts**:
+6. **Running MATLAB Scripts**:
    - Open the provided `21203` folder which includes sample files with noise data.
    - Run `Clean_Process.m` to preprocess EEG signals and generate EEG MATLAB data.
    - Run `Clean_Process_ECG.m` to preprocess ECG signals and generate ECG MATLAB data.
    - Run `Clean_Process_EMG.m` to preprocess EMG signals and generate EMG MATLAB data.
 
-6. **Feature Extraction and Labeling**:
+7. **Feature Extraction and Labeling**:
    - The processed MATLAB data will be stored in the "Fake data" folder.
    - Use `all_eeg_features_in_one_15_min.ipynb`, `all_ecg_features_in_one_15_min.ipynb`, and `all_emg_features_in_one_15_min.ipynb` to extract features and labels from the EEG, ECG, and EMG MATLAB data respectively and save them to XLSX files. Note that the last block for all three files requires real data to work.
 
-7. **Data Merging and Experimentation**:
-   - Since we use Leave-One-Out Cross Validation, we created the "IEEE Sensor Xlsx Data" folder, which contains EEG, ECG, and EMG data for each sheep, including some fake data for testing. Please use the provided `IEEE Sensor Xlsx Data` instead of the results obtained in the previous section.
+
+8. **Data Merging and Experimentation**:
+   - Since we use Leave-One-Out Cross Validation, we created the "IEEE Sensor Xlsx Data" folder, which contains EEG, ECG, and EMG data for each sheep, including some fake data for testing.
    - Run `Merge_all_data.ipynb` to merge all EEG, ECG, and EMG XLSX data based on the `time` attribute, and save the merged data to the "Merge_data" folder. This will provide data for 16 sheep.
    - Finally, run `Experiment.ipynb` to conduct the experiments. Remember to modify folder names as needed since "_fake" has been added to the data folder names.
 
