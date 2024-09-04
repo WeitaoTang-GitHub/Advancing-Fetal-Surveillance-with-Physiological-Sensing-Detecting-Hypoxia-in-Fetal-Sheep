@@ -35,40 +35,18 @@ If you use this code in your research, please cite it as follows:
 
 ### APA Reference
 
-Weitao Tang. (2024). Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1 (V1.0.1). Zenodo. https://doi.org/10.5281/zenodo.12540027
-
-### Havard Reference
-
-Weitao Tang (2024) 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1》. Zenodo. doi: 10.5281/zenodo.12540027.
-
-### MLA Reference
-
-Weitao Tang. Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing-detecting-hypoxia-in-fetal-sheep: V1.0.1. V1.0.1, Zenodo, 2024年6月26日, doi:10.5281/zenodo.12540027.
-
-### Vancouver Reference
-
-Weitao Tang. Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1. Zenodo; 2024.
-
-### Chicago Reference
-
-Weitao Tang. 《Weitao-chat/advancing-fetal-surveillance-with-physiological-sensing-detecting-hypoxia-in-fetal-sheep: V1.0.1》. Zenodo, 2024年6月26日. https://doi.org/10.5281/zenodo.12540027.
-
-### IEEE Reference
-
-Weitao Tang, 《Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: V1.0.1》. Zenodo, 6月 26, 2024. doi: 10.5281/zenodo.12540027.
+Weitao, T., Gari, C., Marzbanrad, . faezeh ., Nhi, T., Nasim, K., Reza, S., David, W., & Robert, G. (2024, February 9). Advancing Fetal Surveillance with Physiological Sensing Detecting Hypoxia in Fetal Sheep. Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep, IEEE Sensor. https://doi.org/10.5281/zenodo.13668416
 
 
 ### BibTeX
 
 ```bibtex
-@software{weitao_chat_2024_12540027,
-  author       = {Weitao Tang},
-  title        = {Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep: v1.0.1},
-  month        = jun,
-  year         = 2024,
-  publisher    = {Zenodo},
-  version      = {v1.0.1},
-  doi          = {10.5281/zenodo.12540027},
-  url          = {https://doi.org/10.5281/zenodo.12540027},
-  note         = {\url{https://doi.org/10.5281/zenodo.12540027}}
+@inproceedings{tang2024advancing,
+  title={Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep},
+  author={Tang, Weitao and Gari, C. and Marzbanrad, Faezeh and Nhi, T. and Nasim, K. and Reza, S. and David, W. and Robert, G.},
+  booktitle={IEEE Sensor Conference},
+  year={2024},
+  month={February 9},
+  doi={10.5281/zenodo.13668416},
+  url={https://doi.org/10.5281/zenodo.13668416}
 }
