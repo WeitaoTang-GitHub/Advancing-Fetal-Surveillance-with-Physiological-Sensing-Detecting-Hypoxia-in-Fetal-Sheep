@@ -46,12 +46,11 @@
 7. **NNiqr**: (ms) Interquartile range of NN intervals.
 8. **SDNN**: (ms) Standard deviation of all NN intervals.
 9. **RMSSD**: (ms) The square root of the mean of the sum of the squares of differences between adjacent NN intervals.
-10. **pnn50**: (%) NN50 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 50 ms).
-11. **pnn1**: (%) NN1 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 1 ms).
-12. **pnn2**: (%) NN2 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 2 ms).
-13. **pnn3**: (%) NN3 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 3 ms).
-14. **pnn4**: (%) NN4 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 4 ms).
-15. **pnn5**: (%) NN5 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 5 ms).
+10. **pnn1**: (%) NN1 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 1 ms).
+11. **pnn2**: (%) NN2 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 2 ms).
+12. **pnn3**: (%) NN3 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 3 ms).
+13. **pnn4**: (%) NN4 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 4 ms).
+14. **pnn5**: (%) NN5 count divided by the total number of all NN intervals (number of pairs of adjacent NN intervals differing by more than 5 ms).
 
 **Frequency Domain Features (Default Using Lomb Periodogram):**
 1. **ulf**: (ms²) Power in the ultra-low frequency range (default < 0.003 Hz).
