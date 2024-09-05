@@ -67,3 +67,6 @@
 **Entropy Features:**
 1. **SampEn**: (a.u.) Sample entropy, which measures the regularity and complexity of a time series.
 2. **ApEn**: (a.u.) Approximate entropy, which measures the regularity and complexity of a time series.
+
+**Quality Features:**
+1. **avgsqi**: (%) The quality of this time window.
