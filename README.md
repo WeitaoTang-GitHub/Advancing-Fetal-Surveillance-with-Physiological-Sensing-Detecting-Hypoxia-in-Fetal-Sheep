@@ -1,10 +1,19 @@
 # Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep
 
-The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering (MATLAB code only runs in Windows system). They convert adchit files into MATLAB files, and then use Python scripts to extract information from the MATLAB files into XLSX spreadsheet files for XGBoost training.
+The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then use Python scripts to extract information from the MATLAB files into XLSX spreadsheet files for XGBoost training.
+
+The extraction code for EEG, ECG, and EMG has not been provided.
+
+For EEG feature extraction, please refer to the EEG Lab: [https://sccn.ucsd.edu/eeglab/index.php](https://sccn.ucsd.edu/eeglab/index.php).
+
+For ECG feature extraction, please refer to my supervisor Gari Clifford’s PhysioNet Cardiovascular Signal Toolbox: [https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox](https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox).
+
+We used a 200-second time window for EEG, ECG, and EMG feature extraction, with a 15-second sliding window. We extracted the first two windows of real data from the Baseline, UCO segment, and Post-UCO periods for each fetal sheep as "Fake data" to allow our code to run without providing the actual data.
+
+As we have optimized the parameters for the fetal sheep data, we will provide a detailed explanation of our parameter selection in the upcoming journal version.
 
 ## Scripts and Notebooks
 
-- **Merge_all_data**: This script merges EEG, ECG, and EMG features and related data for each sheep.
 - **Experiment.ipynb**: This notebook includes all the experimental details.
 - **Paper display.ipynb**: This notebook ensures that all figures are displayed with optimal visual quality for the paper.
 - **UCO_Sample_Data.csv**: Record each Sheep sample, UCO start time, UCO end time, UCO duration, average UCO duration.
@@ -21,10 +30,9 @@ To ensure the code runs smoothly, we have included some fake data for testing pu
    - Python version: 3.11.7
    - Install all the required python packages by requirement.txt.
 
-3. **Data Merging and Experimentation**:
-   - Since we use Leave-One-Out Cross Validation, we created the "IEEE Sensor Xlsx Data" folder, which contains EEG, ECG, and EMG data for each sheep, including some fake data for testing.
-   - Run `Merge_all_data.ipynb` to merge all EEG, ECG, and EMG XLSX data based on the `time` attribute, and save the merged data to the "Merge_data" folder. This will provide data for 14 fetal sheep.
-   - Finally, run `Experiment.ipynb` to conduct the experiments. Remember to modify folder names as needed since "_fake" has been added to the data folder names.
+3. **Experimentation**:
+   - Run `Experiment.ipynb` to conduct the experiments. 
+   - Run `Paper display.ipynb` to display the result of our paper, it may different because of the fake data.
 
 For more detailed information, please refer to each script and notebook.
 
@@ -40,6 +48,8 @@ Weitao, T., Gari, C., Marzbanrad, . faezeh ., Nhi, T., Nasim, K., Reza, S., Davi
 
 ### BibTeX
 
+Please make sure hyperref package in your LaTeX document by including this line in your preamble: \usepackage{hyperref}
+
 ```bibtex
 @inproceedings{tang2024advancing,
   title={Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep},
@@ -48,5 +58,5 @@ Weitao, T., Gari, C., Marzbanrad, . faezeh ., Nhi, T., Nasim, K., Reza, S., Davi
   year={2024},
   month={February 9},
   doi={10.5281/zenodo.13668416},
-  url={https://doi.org/10.5281/zenodo.13668416}
+  note={Available at: \href{https://github.com/Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep}{GitHub repository}}
 }
