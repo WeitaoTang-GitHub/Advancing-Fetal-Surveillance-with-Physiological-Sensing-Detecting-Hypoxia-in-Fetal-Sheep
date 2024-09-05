@@ -1,3 +1,5 @@
+![alt text](https://zenodo.org/badge/DOI/10.5281/zenodo.13668416.svg)
+
 # Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep
 
 The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then use Python scripts to extract information from the MATLAB files into XLSX spreadsheet files for XGBoost training.
