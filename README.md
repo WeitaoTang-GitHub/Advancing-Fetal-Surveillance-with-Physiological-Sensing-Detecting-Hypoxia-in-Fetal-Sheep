@@ -2,7 +2,7 @@
 
 # Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep
 
-The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then extract information from the MATLAB files to XLSX spreadsheet files for XGBoost training.
+The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then extract information from the MATLAB files to CSV files for XGBoost training.
 
 The extraction code for EEG, ECG, and EMG has not been provided.
 
