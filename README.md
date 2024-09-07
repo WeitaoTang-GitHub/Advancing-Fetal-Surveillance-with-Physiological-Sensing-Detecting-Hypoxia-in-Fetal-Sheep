@@ -22,7 +22,7 @@ As we have optimized the parameters for the fetal sheep data, we will provide a 
 
 ## Usage
 
-To ensure the code runs smoothly, we have included some fake data for testing purposes.
+To ensure the code runs smoothly, we have included some fake data in the Fake_merge_data folder for testing purposes.
 
 1. **Download and Extract the GitHub Repository**:
    - Download the entire repository as a ZIP file.
