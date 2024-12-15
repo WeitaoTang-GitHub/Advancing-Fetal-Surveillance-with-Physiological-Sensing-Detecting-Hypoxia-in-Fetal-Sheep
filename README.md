@@ -43,9 +43,9 @@ For more detailed information, please refer to each script and notebook.
 
 If you use this code in your research, please cite it as follows:
 
-### APA Reference
+### Havard Reference
 
-Weitao, T., Gari, C., Marzbanrad, . faezeh ., Nhi, T., Nasim, K., Reza, S., David, W., & Robert, G. (2024, February 9). Advancing Fetal Surveillance with Physiological Sensing Detecting Hypoxia in Fetal Sheep. Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep, IEEE Sensor. https://doi.org/10.5281/zenodo.13668416
+Tang, W., Tran, N., Katebi, N., Sameni, R., Clifford, G.D., Walker, D., Horlali, V., Taylor, C., Galinsky, R. and Marzbanrad, F., 2024. Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep.
 
 
 ### BibTeX
@@ -53,12 +53,9 @@ Weitao, T., Gari, C., Marzbanrad, . faezeh ., Nhi, T., Nasim, K., Reza, S., Davi
 Please make sure hyperref package in your LaTeX document by including this line in your preamble: \usepackage{hyperref}
 
 ```bibtex
-@inproceedings{tang2024advancing,
+@misc{tang2024advancing,
   title={Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep},
-  author={Tang, Weitao and Gari, C. and Marzbanrad, Faezeh and Nhi, T. and Nasim, K. and Reza, S. and David, W. and Robert, G.},
-  booktitle={IEEE Sensor Conference},
+  author={Tang, Weitao and Tran, Nhi and Katebi, Nasim and Sameni, Reza and Clifford, Gari D and Walker, David and Horlali, Vaishnavi and Taylor, Callum and Galinsky, Robert and Marzbanrad, Faezeh},
   year={2024},
-  month={February 9},
-  doi={10.5281/zenodo.13668416},
-  note={Available at: \href{https://github.com/Weitao-chat/Advancing-Fetal-Surveillance-with-Physiological-Sensing-Detecting-Hypoxia-in-Fetal-Sheep}{GitHub repository}}
+  publisher={Feb}
 }
