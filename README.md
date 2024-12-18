@@ -43,9 +43,9 @@ For more detailed information, please refer to each script and notebook.
 
 If you use this code in your research, please cite it as follows:
 
-### Havard Reference
+### IEEE Reference
 
-Tang, W., Tran, N., Katebi, N., Sameni, R., Clifford, G.D., Walker, D., Horlali, V., Taylor, C., Galinsky, R. and Marzbanrad, F., 2024. Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep.
+W. Tang et al., "Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep," 2024 IEEE SENSORS, Kobe, Japan, 2024, pp. 1-4, doi: 10.1109/SENSORS60989.2024.10784962. keywords: {Accuracy;Machine learning;Electrocardiography;Hypoxia;Brain modeling;Feature extraction;Electromyography;Electroencephalography;Complexity theory;Biomedical monitoring},
 
 
 ### BibTeX
@@ -53,9 +53,14 @@ Tang, W., Tran, N., Katebi, N., Sameni, R., Clifford, G.D., Walker, D., Horlali,
 Please make sure hyperref package in your LaTeX document by including this line in your preamble: \usepackage{hyperref}
 
 ```bibtex
-@misc{tang2024advancing,
-  title={Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep},
-  author={Tang, Weitao and Tran, Nhi and Katebi, Nasim and Sameni, Reza and Clifford, Gari D and Walker, David and Horlali, Vaishnavi and Taylor, Callum and Galinsky, Robert and Marzbanrad, Faezeh},
+@INPROCEEDINGS{10784962,
+  author={Tang, Weitao and Tran, Nhi and Katebi, Nasim and Sameni, Reza and Clifford, Gari D. and Walker, David and Horlali, Vaishnavi and Taylor, Callum and Galinsky, Robert and Marzbanrad, Faezeh},
+  booktitle={2024 IEEE SENSORS}, 
+  title={Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep}, 
   year={2024},
-  publisher={Feb}
-}
+  volume={},
+  number={},
+  pages={1-4},
+  keywords={Accuracy;Machine learning;Electrocardiography;Hypoxia;Brain modeling;Feature extraction;Electromyography;Electroencephalography;Complexity theory;Biomedical monitoring},
+  doi={10.1109/SENSORS60989.2024.10784962}}
+
