@@ -2,6 +2,10 @@
 
 # Advancing Fetal Surveillance with Physiological Sensing: Detecting Hypoxia in Fetal Sheep
 
+## Paper Link  
+Our paper has been published at the **IEEE Sensors Conference**.  
+You can access it here: [Paper Link](https://ieeexplore.ieee.org/document/10784962/authors)
+
 The MATLAB files mainly focus on preprocessing EEG, ECG, and EMG data using methods such as bandpass filtering. They convert adchit files into MATLAB files, and then extract information from the MATLAB files to CSV files for XGBoost training.
 
 The extraction code for EEG, ECG, and EMG has not been provided.
